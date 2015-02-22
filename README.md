@@ -6,3 +6,6 @@ Ko sem delal to aplikacijo za zaključno nalogo, sem bil še velik začetnik na 
 
 # Vesel bom kakršnekoli pomoči z updejti
 STPŠ-ja ne obiskujem več, ampak bi bil vseeno zelo vesel, če bo aplikacija med dijaki živela še naprej, vsaj nekaj let. Zato sem aplikacijo namestil na GitHub. Če ima kdo željo aplikacijo posodobili, naj si vzame čas, da si ogleda kodo in nato "forkne" tale projekt. Z veseljem si bom posodobljeno verzijo ogledal in jo dal na Google Play.
+
+# Android Studio
+Aplikacija je narejena v okolju Android Studio. Sicer je Android Studio že nekaj časa najboljša izbira za Android Development, vendar nekateri še vedno uporabljajo Eclipse. Če kdo uporablja Eclipse, bo verjetno moral za tale projekt prenesiti Android Studio. Nevem sicer kako to deluje te dni, ampak nazadnje, ko sem probal uvoziti Android Studio projekt v Eclipse, sem imel veliko problemov.

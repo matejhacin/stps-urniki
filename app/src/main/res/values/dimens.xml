@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dva_marker_width">2dp</dimen>
+    <dimen name="dva_marker_height">35dp</dimen>
+    <dimen name="dva_marker_margin">5dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="text_margin_top">0dp</dimen>
+    <dimen name="linear_table_height">40dp</dimen>
+    <dimen name="table_separator_height">1dp</dimen>
+    <dimen name="normal_text_size">17dp</dimen>
+
+</resources>

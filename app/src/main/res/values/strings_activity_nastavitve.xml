@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="title_activity_nastavitve">Nastavitve</string>
+    
+    <!-- Urnik -->
+    <string name="preference_update_urnik_title">Samodejne posodobitve urnika</string>
+    <string name="preference_update_urnik_summary">Urnik se bo vsak teden samodejno posodobil</string>
+    
+    <string name="preference_odmor_title">Razred</string>
+    <string name="preference_odmor_summary">Aplikacija bo prikazala trenutno uro na prvotnem zaslonu</string>
+    
+    <string-array name="oddelki">
+        <item>1.A</item>
+        <item>1.B</item>
+        <item>1.C</item>
+        <item>1.D</item>
+        <item>2.AB</item>
+        <item>2.C</item>
+        <item>2.D</item>
+        <item>2.EF</item>
+        <item>3.AB</item>
+        <item>3.C</item>
+        <item>3.EF</item>
+        <item>4.A</item>
+        <item>4.B</item>
+        <item>4.C</item>
+    </string-array>
+    
+
+</resources>

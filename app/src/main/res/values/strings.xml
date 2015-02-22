@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">STPŠ Urniki</string>
+    <string name="action_settings">Nastavitve</string>
+    <string name="action_about">O aplikaciji</string>
+    <string name="title_activity_schedule">Urnik</string>
+    <string name="title_activity_nadomescanja">Nadomeščanja</string>
+    <string name="ura">URA</string>
+    <string name="ponedeljek">PON</string>
+    <string name="torek">TOR</string>
+    <string name="sreda">SRE</string>
+    <string name="cetrtek">ČET</string>
+    <string name="petek">PET</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_updateURL">Posodobi URL-je</string>
+
+</resources>

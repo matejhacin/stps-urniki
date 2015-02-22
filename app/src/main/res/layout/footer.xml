@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8ebf0" >
+
+    <RelativeLayout
+        android:id="@+id/currentInfoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#e8ebf0" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/dan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="PONEDELJEK"
+                    android:textColor="#3f4042"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/ura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dan"
+                    android:layout_centerHorizontal="true"
+                    android:text="7:45"
+                    android:textColor="#7f8085"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="Urnik"
+                    android:textColor="#3f4042"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="#7f8085"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/podatkiSoleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/currentInfoLayout"
+        android:background="#e8ebf0" >
+
+        <TextView
+            android:id="@+id/podatkiSole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textColor="#3f4042"
+            android:textSize="16sp"
+            android:text="Srednja tehniška in poklicna šola Trbovlje\n Šuštarjeva 7a\n 1420 Trbovlje\n Tel: 03 56 33 450\n Fax: 03 56 33 469\n E-pošta: tajnistvo@stps-trbovlje.si" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/socialLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/podatkiSoleLayout"
+        android:background="#e8ebf0"
+        android:padding="10dp" >
+
+        <com.google.android.gms.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="AD_ID"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/twitter"
+            android:layout_below="@id/adView"
+            android:src="@drawable/facebook_banner"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/twitter_banner" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/twitter"
+            android:layout_below="@+id/twitter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/youtube_banner" />
+    </RelativeLayout>
+
+</RelativeLayout>

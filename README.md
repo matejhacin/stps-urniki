@@ -1,5 +1,5 @@
 ﻿# STPŠ Urniki
-STPŠ Urniki is an application that I've made for my former high school. It parses data from eAsistent and displays it in a custom table view. This README will be written in Slovenian language.
+STPŠ Urniki is an application that I've made for my former high school. It parses data from eAsistent and displays it in a custom table view. This README will be written in Slovenian language since it's mostly useful for studens that are currently visiting my former high school.
 
 # Aplikacija bi bila lahko bolje napisana
 Ko sem delal to aplikacijo za zaključno nalogo, sem bil še velik začetnik na področju Androida. Koda zato ni najbolje spisana, veliko je stvari, ki bi jih lahko naredil bolje. Aplikacijo zato lahko uporabljaš v učne namene, ampak imej ves čas to v mislih.
